@@ -1,22 +1,11 @@
-// Los useState son hooks en react
-// Agrega funcionalidad a los componentes en react en base a una condición
 import { useState } from 'react';
 import './App.css';
 
-/*
-    Los atributos que reciba cada componente deben ser inmutables (No modificables dentro del componente).
-*/
 export function TwitterFollowCard({ userName = 'unknown', children, imgSrc, initialIsFollowing }){
     const [isFollowing, setIsFollowing] = useState(initialIsFollowing);
 
     console.log("[TwitterFollowCard] render with userName: ", userName);
-    // =
-    // const state = useState(false);
-    // const isFollowing = state[0];
-    // const setIsFollowing = state[1];
 
-    // Al definir estilos dentro de elementos html usar camelCase
-    // En React para crear una clase es necesario usar className=""
     const text = isFollowing ? "Siguiendo" : "Seguir";
 
     const buttonClassName = isFollowing
@@ -33,7 +22,7 @@ export function TwitterFollowCard({ userName = 'unknown', children, imgSrc, init
                 <img
                     className='tw-followCard-avatar'
                     src={`${imgSrc}`}
-                    alt="el avatar de midudev"
+                    alt={`El avatar de ${userName}`}
                 />
                 <div className='tw-followCard-info'>
                     <strong>{ children }</strong>
@@ -41,7 +30,10 @@ export function TwitterFollowCard({ userName = 'unknown', children, imgSrc, init
                 </div>
             </header>
             <aside>
-                <button className={buttonClassName} onClick={handleClick}>{ text }</button>
+                <button className={buttonClassName} onClick={handleClick}>
+                    <span className='tw-followCard-text'>{ text }</span>
+                    <span className='tw-followCard-stopFollow'>Dejar de Seguir</span>
+                </button>
             </aside>
         </article>
     );

@@ -1,0 +1,10 @@
+# Normaliza a LF en el Repositorio
+* text = auto
+
+# Fuerza a LF siempre
+*.sh
+*.js text eol=lf
+*.py text eol=lf
+
+# Opcional: para que Windows no meta CRLF en scripts
+*.bat text eol=crlf

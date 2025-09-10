@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// Importando la función principal para renderizar el contenido
+// Función principal
 import { App } from './App.jsx';
-// Importando el archivo de estilos
+// Archivo de estilos principal
 import './index.css';
 
 // Creando el arbol de renderizado
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-// Renderizando el contenido
+// Renderizando un arbol
 root.render(
   <App/>
-)
+);
