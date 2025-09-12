@@ -1,5 +1,5 @@
 # Normaliza a LF en el Repositorio
-* text = auto
+* text=auto
 
 # Fuerza a LF siempre
 *.sh
