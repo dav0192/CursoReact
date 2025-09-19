@@ -66,7 +66,6 @@ function App(){
             confetti();
             // Actualiza el estado
             setWinner(newWinner); // No es SINCRONO
-            // TODO: Comprueba si el juego ya termino
         }else if(checkEndGame(newBoard)){
             setWinner(false); // Empate
         }
