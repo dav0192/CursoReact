@@ -2,6 +2,7 @@
   "name": "07-mouse-follower",
   "private": true,
   "version": "0.0.0",
+  "homepage": "/07-mouse-follower",
   "type": "module",
   "scripts": {
     "dev": "vite",

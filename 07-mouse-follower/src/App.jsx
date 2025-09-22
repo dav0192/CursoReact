@@ -17,6 +17,14 @@ const FollowMouse = () => {
         Al activar un useEffect es importante crearlo, asi como cuando al desactivarlo
         es importante limpiarlo.
     */
+
+    // Es posible usar tantos efectos como quieras...
+    // Solo usar el document dentro de los efectos y no en el cuerpo de la funcion
+    // Ya que no se guarda el document en el servidor, si no que se renderiza.
+
+    // No se pueden pasar parametros a los efectos, pero si variables.
+
+    // Pointer Move
     useEffect(() => {
         console.log('Effect', { enabled });
 
@@ -38,6 +46,22 @@ const FollowMouse = () => {
             window.removeEventListener("pointermove", handleMove);
         };
     }, [enabled]);
+
+    // Change body className
+    useEffect(() => {
+        document.body.classList.toggle('no-cursor', enabled);
+
+        // Cleanup method despues de finalizar el metodo
+        return () => {
+            document.body.classList.remove('no-cursor');
+        };
+    }, [enabled]);
+
+    /*
+        useEffect(() => {
+            if(!enabled) setPosition({ X: 0, Y: 0});
+        })
+    */
 
     return (
         <>
