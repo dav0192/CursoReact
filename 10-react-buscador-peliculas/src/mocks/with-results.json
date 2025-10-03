@@ -1,0 +1,76 @@
+{
+  "Search": [
+    {
+      "Title": "The Avengers",
+      "Year": "2012",
+      "imdbID": "tt0848228",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Avengers",
+      "Year": "1998",
+      "imdbID": "tt0118661",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTA4ZmZlZWQtZDRlYS00ZWZhLTk0MzEtYjExMGIzMTBlZDNlXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Avengers: Earth's Mightiest Heroes",
+      "Year": "2010–2024",
+      "imdbID": "tt1626038",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2NkYTNlMTQtZWVjNC00MTk4LTkzNGEtYjAyOTYxYWFjYTVkXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Ultimate Avengers: The Movie",
+      "Year": "2006",
+      "imdbID": "tt0491703",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyMjk0NTMwMl5BMl5BanBnXkFtZTgwNzY0NjAwNzE@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Avengers",
+      "Year": "1961–1969",
+      "imdbID": "tt0054518",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDhhYWIxMzYtNTY2Zi00MTZiLWI2ZDUtYjNiNTY5YzA5MWNkXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The New Avengers",
+      "Year": "1976–1977",
+      "imdbID": "tt0074031",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTAwOGQwZmItNWRkOC00NDJiLTgyYTktYzlmZmI2MjdmNGY2XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Avengers: United They Stand",
+      "Year": "1999–2000",
+      "imdbID": "tt0203247",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDcxZjdjZTgtNDI5Ni00MDliLWFhZTYtZmQwYzdlNzA4YzYzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Avengers",
+      "Year": "1942",
+      "imdbID": "tt0034639",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODU2MjQ3ZjItYzRhOC00NDFjLTk4OTUtYTkxYmZhMjVhNTEzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Avengers: Infinity War IMAX® Behind the Frame",
+      "Year": "2018",
+      "imdbID": "tt11559766",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjAwMjczNDYtY2U4Zi00ODUxLWE0NWMtYTNlOThmZGRiMTFlXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Marvel Disk Wars: The Avengers",
+      "Year": "2014–2015",
+      "imdbID": "tt3644256",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTMwYmRkY2UtZmQ2NS00YzRiLWFjNzYtNzRjMWYxY2VmY2YyXkEyXkFqcGc@._V1_SX300.jpg"
+    }
+  ],
+  "totalResults": "62",
+  "Response": "True"
+}

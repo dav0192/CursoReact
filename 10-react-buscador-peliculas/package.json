@@ -1,0 +1,29 @@
+{
+  "name": "10-react-buscador-peliculas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^8.57.1",
+    "standard": "^17.1.2",
+    "vite": "^7.1.7"
+  },
+  "eslintConfig": {
+    "extends": "/node_modules/standard/eslintrc.json"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "just-debounce-it": "3.2.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
