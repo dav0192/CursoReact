@@ -16,8 +16,6 @@ export function Filters () {
     const minPriceFilterId = useId()
     const categoryFilterId = useId()
 
-    console.log(minPriceFilterId, categoryFilterId)
-
     const handleChangeMinPrice = (event) => {
         // Algo anda mal, hay dos fuentes
         // setMinPrice(event.target.value) esta era local, por lo cual debe eliminarse
